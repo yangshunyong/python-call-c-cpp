@@ -1,12 +1,15 @@
 #include <pybind11/pybind11.h>
+#include <stdio.h>
 
 int add(int a, int b)
 {
+    printf("---add int.\n");
     return (a + b);
 }
 
 double add(double a, double b)
 {
+    printf("---add dobule.\n");
     return (a + b);
 }
 
