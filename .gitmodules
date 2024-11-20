@@ -1,3 +1,6 @@
 [submodule "pybuild11-lib"]
 	path = pybuild11-lib
 	url = https://github.com/pybind/pybind11.git
+[submodule "pybind11-lib"]
+	path = pybind11-lib
+	url = https://github.com/pybind/pybind11.git
